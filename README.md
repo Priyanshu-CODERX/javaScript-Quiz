@@ -7,4 +7,4 @@
 [Link To NeoGCamp](https://neog.camp/)
 
 <h1>JavaScript Screenshot</h1>
-![Alt text](https://raw.githubusercontent.com/Priyanshu-CODERX/Password-Manager-Python/main/Screenshot%20(432).png)
+![Alt text](https://raw.githubusercontent.com/Priyanshu-CODERX/javaScript-Quiz/main/image.png)
