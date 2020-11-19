@@ -11,7 +11,7 @@ function playQuiz(questions, answers) {
 
 	if (userAnswer === answers.toLowerCase()) {
 		score++;
-		console.log(chalk.green.bold("Winner!"));
+		console.log(chalk.green.bold("Right Answer!"));
 		console.log(chalk.cyan.bold("Score: ", score));
 	}
 
