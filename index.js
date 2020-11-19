@@ -11,7 +11,7 @@ function playQuiz(questions, answers) {
 
 	if (userAnswer === answers.toLowerCase()) {
 		score++;
-		console.log(chalk.green.bold("Right Answer!"));
+		console.log(chalk.green.bold("Right Ans!"));
 		console.log(chalk.cyan.bold("Score: ", score));
 	}
 
@@ -39,7 +39,7 @@ if(userChoice === "yes")
 	playQuiz("Full Form Of IT? ", "information technology");
 	playQuiz("Full Form Of ROM? ", "read only memory");
 	console.log("---------------------------------");
-	if(score === 5) {
+	if(score >= 5) {
 		console.log("---------------------------------");
 		console.log("Congrats! you won level 1");
 		console.log("Level 2 Starts");
@@ -50,7 +50,7 @@ if(userChoice === "yes")
 		playQuiz("Who Developed JavaScript? ", "brendan eich");
 		playQuiz("Who was world's first programmer? ", "ada lovelace");
 
-		if (score === 10) {
+		if (score >= 10) {
 			console.log("---------------------------------");
 			console.log(chalk.green("Congrats! you won the game"));
 			console.log(chalk.green("Final Score: " ,score));
