@@ -68,7 +68,11 @@ if(userChoice === "yes")
 		console.log(chalk.red.bold("You Lose!"));
 	}
 } 
-else
+else if (userChoice === "no")
 {
 	console.log(chalk.green.bold("Thank You!"))
+}
+
+else {
+	console.log("Cannot understand your command. Please re run the program");
 }
